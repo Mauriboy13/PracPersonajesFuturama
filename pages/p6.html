@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personaje de Futurama</title>
+  <style>
+    /* Estilos para el cuerpo de la página */
+    body {
+      background-color: #0F1630; /* Color de fondo */
+      color: #F6F7EB; /* Color de texto */
+      font-family: "Helvetica", sans-serif; /* Fuente de texto */
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* Centrar verticalmente en la ventana del navegador */
+      box-sizing: border-box;
+    }
+
+    /* Estilos para el contenedor del personaje */
+    .personaje-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    /* Estilos para la imagen del personaje */
+    .personaje-img {
+      width: 150px;
+      height: 200px;
+      margin-right: 20px;
+    }
+
+    /* Estilos para la descripción del personaje */
+    .personaje-descripcion {
+      flex: 1;
+    }
+
+    /* Estilos para el botón de regresar */
+    .boton-regresar {
+      background-color: #61C5FF; /* Color de fondo */
+      color: #F6F7EB; /* Color de texto */
+      font-size: 16px;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px; /* Agrega espacio entre la descripción y el botón */
+    }
+
+    /* Estilos para el botón de regresar al pasar el cursor por encima */
+    .boton-regresar:hover {
+      background-color: #3C8FB7; /* Color de fondo al pasar el cursor por encima */
+    }
+  </style>
+</head>
+<body>
+  <div class="personaje-container">
+    <img class="personaje-img" src="../img/Z1.jpg" alt="Personaje de Futurama">
+    <div class="personaje-descripcion">
+      <h1 style="text-align: center;">Zoidberg</h1> <!-- Centrar el título -->
+      <p style="text-align: justify;">Zoidberg es el médico de la tripulación de Planet Express. Es un crustáceo alienígena incompetente y hambriento que se alimenta de desechos orgánicos.</p> <!-- Centrar el texto -->
+    </div>
+  </div>
+  <a class="boton-regresar" href="../index.html">Regresar</a>
+</body>
+</html>
