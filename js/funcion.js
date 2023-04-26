@@ -20,11 +20,11 @@ switch (seleccionTemporada) {
     break;
   case 'temporada2':
     imagen.attr('src', 'img/FryRetro.jpg');
-    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p1.html"><img src="img/F1.jpg" width="500px">';
+    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p1.html"><img src="img/FryRetro.jpg" width="500px">';
     break;
     case 'temporada3':
     imagen.attr('src', 'img/FScooby.jpg');
-    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p1.html"><img src="img/F1.jpg" width="500px">';
+    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p1.html"><img src="img/FScooby.jpg" width="500px">';
     break;
   default:
     imagen.attr('src', 'img/F1.jpg');
@@ -40,11 +40,11 @@ case 'personaje2':
     break;
   case 'temporada2':
     imagen.attr('src', 'img/BenRetro1.jpg');
-    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p2.html"><img src="img/B1.jpg" width="500px">';
+    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p2.html"><img src="img/BenRetro1.jpg" width="500px">';
     break;
     case 'temporada3':
     imagen.attr('src', 'img/BScooby.jpg');
-    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p2.html"><img src="img/B1.jpg" width="500px">';
+    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p2.html"><img src="img/BScooby.jpg" width="500px">';
     break;
   default:
     imagen.attr('src', 'img/B1.jpg');
@@ -60,11 +60,11 @@ case 'personaje2':
     break;
   case 'temporada2':
     imagen.attr('src', 'img/leelaretro.jpg');
-    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p3.html"><img src="img/L1.jpg" width="500px">';
+    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p3.html"><img src="img/leelaretro.jpg" width="500px">';
     break;
     case 'temporada3':
     imagen.attr('src', 'img/LScooby.jpg');
-    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p3.html"><img src="img/L1.jpg" width="500px">';
+    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p3.html"><img src="img/LScooby.jpg" width="500px">';
     break;
   default:
     imagen.attr('src', 'img/L1.jpg');
@@ -80,11 +80,11 @@ case 'personaje2':
       break;
   case 'temporada2':
     imagen.attr('src', 'img/amyRetro.jpg');
-    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p4.html"><img src="img/A1.jpg" width="500px">';
+    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p4.html"><img src="img/amyRetro.jpg" width="500px">';
     break;
     case 'temporada3':
     imagen.attr('src', 'img/AScooby.jpg');
-    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p4.html"><img src="img/A1.jpg" width="500px">';
+    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p4.html"><img src="img/AScooby.jpg" width="500px">';
     break;
   default:
     imagen.attr('src', 'img/A1.jpg');
@@ -100,11 +100,11 @@ case 'personaje2':
     break;
   case 'temporada2':
     imagen.attr('src', 'img/hermesRetro.jpg');
-    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p5.html"><img src="img/H1.jpg" width="500px">';
+    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p5.html"><img src="img/hermesRetro.jpg" width="500px">';
     break;
     case 'temporada3':
     imagen.attr('src', 'img/HScooby.jpg');
-    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p5.html"><img src="img/H1.jpg" width="500px">';
+    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p5.html"><img src="img/HScooby.jpg" width="500px">';
     break;
   default:
     imagen.attr('src', 'img/H1.jpg');
@@ -120,11 +120,11 @@ case 'personaje2':
     break;
   case 'temporada2':
   imagen.attr('src', 'img/zoidbergRetro.jpg');
-  document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p6.html"><img src="img/Z1.jpg" width="500px">';
+  document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p6.html"><img src="img/zoidbergRetro.jpg" width="500px">';
   break;
     case 'temporada3':
     imagen.attr('src', 'img/ZScooby.jpg');
-    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p6.html"><img src="img/Z1.jpg" width="500px">';
+    document.getElementById("imagenPersonaje").innerHTML='<a href="pages/p6.html"><img src="img/ZScooby.jpg" width="500px">';
     break;
   default:
     imagen.attr('src', 'img/Z1.jpg');
@@ -165,4 +165,5 @@ case 'personaje2':
 
 // $('#descripcionPersonaje').text(descripcion);
 // });
+
 
